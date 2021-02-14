@@ -1,5 +1,32 @@
 {
+  "_from": "hexo-bilibili-card@^0.0.1",
+  "_id": "hexo-bilibili-card@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-y+6evCMWRdICmAf26E5dzH2hdtk=",
+  "_location": "/hexo-bilibili-card",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "hexo-bilibili-card@^0.0.1",
     "name": "hexo-bilibili-card",
-    "version": "0.0.4",
-    "main": "index"
+    "escapedName": "hexo-bilibili-card",
+    "rawSpec": "^0.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^0.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/hexo-bilibili-card/download/hexo-bilibili-card-0.0.1.tgz",
+  "_shasum": "cbee9ebc231645d2029807f6e84e5dcc7da176d9",
+  "_spec": "hexo-bilibili-card@^0.0.1",
+  "_where": "F:\\Programmming\\BLOG",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A hexo plugin insert a bilibili card into your page or article, some of css code is copy from bilibili.",
+  "main": "index",
+  "name": "hexo-bilibili-card",
+  "version": "0.0.5"
 }

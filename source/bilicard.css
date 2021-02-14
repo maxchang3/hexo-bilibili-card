@@ -69,11 +69,13 @@
 .bvideo-info .title {
     max-height: 40px;
     min-height:19px;
-    margin-bottom: 8px;
-    margin-top: 0;
     color: #222;
     line-height: 1.4;
     font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    max-width: 25rem;
 }
 .bvideo-info .up-name {
     height: 19px;
@@ -155,5 +157,16 @@
     }
     .partition{
         display:none;
+    }
+
+    .bvideo-info .title {
+        max-height: 40px;
+        min-height:19px;
+        color: #222;
+        line-height: 1.4;
+        font-size: 14px;
+        text-overflow: clip;
+        overflow: hidden;
+        white-space:normal;
     }
 }
