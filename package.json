@@ -28,5 +28,5 @@
   "description": "A hexo plugin insert a bilibili card into your page or article, some of css code is copy from bilibili.",
   "main": "index",
   "name": "hexo-bilibili-card",
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
