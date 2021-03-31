@@ -14,7 +14,7 @@ hexo.extend.generator.register('bili_asset', ()=>[
     }
 ]);
 
-hexo.extend.tag.register("bilicard", function (args) {
+hexo.extend.tag.register("bilicard",  (args)=> {
     return bili(args[0]).then(function(bili_card){
       //console.log(bili_card);
       return bili_card;
