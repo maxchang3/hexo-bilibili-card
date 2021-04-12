@@ -2,6 +2,10 @@
 A hexo plugin insert a bilibili card into your page or article, some of css code is copy from bilibili.
 
 一个Hexo插件，在你的文章中插入b站的视频卡片，样式模仿和借鉴自b站。
+
+[![NPM](https://nodei.co/npm/hexo-bilibili-card.png)](https://nodei.co/npm/hexo-bilibili-card/)
+
+
 # Install 安装
 ```npm i hexo-bilibili-card```
 
