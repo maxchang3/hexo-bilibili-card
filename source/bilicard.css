@@ -79,6 +79,7 @@
     text-overflow: ellipsis;
     white-space: nowrap; 
     max-width: 25rem;
+    margin: 0;
 }
 .bvideo-info .up-name {
     height: 19px;
@@ -126,7 +127,6 @@
     left: 50%;
     margin-left: -15px;
     margin-top: -13px;
-    width: 30px;
     height: 26px;
 }
 
@@ -171,5 +171,6 @@
         text-overflow: clip;
         overflow: hidden;
         white-space:normal;
+        margin: 0;
     }
 }
