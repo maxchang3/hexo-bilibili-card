@@ -3,10 +3,17 @@ A hexo plugin insert a bilibili card into your page or article, some of css code
 
 一个Hexo插件，在你的文章中插入b站的视频卡片，样式模仿和借鉴自b站。
 
-# Preview
+[![NPM](https://nodei.co/npm/hexo-bilibili-card.png)](https://nodei.co/npm/hexo-bilibili-card/)
+
+
+# Install 安装
+```npm i hexo-bilibili-card```
+
+# Preview 预览
 You can click [here](https://xiandai.ren/2021/02/05/some-tests/) to see the preview website.
 点击 [这里](https://xiandai.ren/2021/02/05/some-tests/) 看预览哦~
-# Usage
+
+# Usage 使用
 In your markdown file:
 在你的markdown文件中插入以下片段
 
@@ -20,5 +27,6 @@ In your markdown file:
 then you will get the card in your page.
 
 然后你就可以看见文章中的卡片了。
+
 
 
