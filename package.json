@@ -1,6 +1,6 @@
 {
   "name": "hexo-bilibili-card",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A hexo plugin insert a bilibili video card into your page or article, some of css code is copy from bilibili.",
   "main": "index.js",
   "repository": "https://github.com/MaxChang3/hexo-bilibili-card.git",
@@ -8,7 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.6.1",
-    "nunjucks": "^3.2.3",
-    "request": "^2.88.2"
+    "nunjucks": "^3.2.3"
   }
 }
