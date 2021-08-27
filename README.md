@@ -10,8 +10,8 @@ A hexo plugin insert a bilibili card into your page or article, some of css code
 ```npm i hexo-bilibili-card```
 
 # Preview 预览
-You can click [here](https://xiandai.ren/2021/02/05/some-tests/) to see the preview website.
-点击 [这里](https://xiandai.ren/2021/02/05/some-tests/) 看预览哦~
+You can click [here](https://zhangmaimai.com/2021/02/05/some-tests/) to see the preview website.
+点击 [这里](https://zhangmaimai.com/2021/02/05/some-tests/) 看预览哦~
 
 # Usage 使用
 In your markdown file:
