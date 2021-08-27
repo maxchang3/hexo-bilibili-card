@@ -1,32 +1,14 @@
 {
-  "_from": "hexo-bilibili-card@0.0.8",
-  "_id": "hexo-bilibili-card@0.0.8",
-  "_inBundle": false,
-  "_integrity": "sha1-zeB2i74jaYfBuAm5UHeqQcHOAMA=",
-  "_location": "/hexo-bilibili-card",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "hexo-bilibili-card@0.0.7",
-    "name": "hexo-bilibili-card",
-    "escapedName": "hexo-bilibili-card",
-    "rawSpec": "0.0.7",
-    "saveSpec": null,
-    "fetchSpec": "0.0.7"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npm.taobao.org/hexo-bilibili-card/download/hexo-bilibili-card-0.0.7.tgz",
-  "_shasum": "cde0768bbe236987c1b809b95077aa41c1ce00c0",
-  "_spec": "hexo-bilibili-card@0.0.7",
-  "_where": "F:\\Programmming\\BLOG",
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "A hexo plugin insert a bilibili card into your page or article, some of css code is copy from bilibili.",
-  "main": "index",
   "name": "hexo-bilibili-card",
-  "version": "0.0.8"
+  "version": "0.5.0",
+  "description": "A hexo plugin insert a bilibili video card into your page or article, some of css code is copy from bilibili.",
+  "main": "index.js",
+  "repository": "https://github.com/MaxChang3/hexo-bilibili-card.git",
+  "author": "MaxChang3",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "nunjucks": "^3.2.3",
+    "request": "^2.88.2"
+  }
 }
