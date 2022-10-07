@@ -4,13 +4,9 @@ const path = require('path');
 const css = hexo.extend.helper.get('css').bind(hexo);
 const bili = require('./lib/bili.js')
 
-hexo.extend.generator.register('bili_asset', ()=>[
-    {
+hexo.extend.generator.register('bili_asset', ()=>[{
       path: 'css/bilicard.css',
-      data: function(){
-        return fs.createReadStream(
-          path.resolve(path.resolve(__dirname, "./source"),"bilicard.css"))
-      }
+      data: () => fs.createReadStream(path.resolve(__dirname, "./source" ,"bilicard.css"))
     }
 ]);
 
