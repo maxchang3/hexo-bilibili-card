@@ -7,7 +7,6 @@
   "author": "MaxChang3",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.6.1",
-    "nunjucks": "^3.2.3"
+    "node-fetch": "^2.6.1"
   }
 }
