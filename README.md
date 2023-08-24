@@ -39,9 +39,9 @@ then you will get the card in your page.
 然后你就可以看见文章中的卡片了。
 
 
-# Config 配置
+## Config 配置
 
-由于 b 站图片地址的跨于限制，因此需要配置图片代理，目前未找到大陆地区较为稳定的服务，默认使用的 `https://images.weserv.nl/?url=`，部分地区受到了 DNS 污染及反应过慢。建议参考 [rsstt-img-relay](https://github.com/Rongronggg9/rsstt-img-relay) 自建服务。
+由于 b 站图片地址的跨域限制，因此需要配置图片代理，目前未找到大陆地区较为稳定的服务，默认使用的 `https://images.weserv.nl/?url=`，部分地区受到了 DNS 污染及反应过慢。建议参考 [rsstt-img-relay](https://github.com/Rongronggg9/rsstt-img-relay) 自建服务。
 
 Due to the CORS of bilibili's image, you need to configure an image proxy, but we haven't found any stable image proxy in mainland China Mainland, the default image proxy is provided `https://images.weserv.nl/?url=`, which is polluted by DNS in some areas and the response is too slow. We suggest to refer to [rsstt-img-relay](https://github.com/Rongronggg9/rsstt-img-relay) to build your own image proxy.
 
