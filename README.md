@@ -11,17 +11,17 @@ A hexo plugin insert a bilibili card into your page or article, some of css code
 > This plugin's CSS styles may be contaminated by the site's CSS styles, which will be changed to SVG generation at a later date. Fetching a large number of images over a period of time may be subject to access restrictions.
 
 
-# Install 安装
+## Install 安装
 
 ```npm i hexo-bilibili-card```
 
-# Preview 预览
+## Preview 预览
 
 You can click [here](https://zhangmaimai.com/2021/02/05/some-tests/) to see the preview website.
 
 点击 [这里](https://zhangmaimai.com/2021/02/05/some-tests/) 看预览哦~
 
-# Usage 使用
+## Usage 使用
 
 In your config file, insert follow codes:
 
