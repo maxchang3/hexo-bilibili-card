@@ -1,6 +1,6 @@
 {
   "name": "hexo-bilibili-card",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "A hexo plugin insert a bilibili video card into your page or article, some of css code is copy from bilibili.",
   "main": "index.js",
   "repository": "https://github.com/MaxChang3/hexo-bilibili-card.git",
