@@ -43,7 +43,7 @@ then you will get the card in your page.
 
 由于 b 站图片地址的跨域限制，因此需要配置图片代理，目前未找到大陆地区较为稳定的服务，默认使用的 `https://images.weserv.nl/?url=`，部分地区受到了 DNS 污染及反应过慢。建议参考 [rsstt-img-relay](https://github.com/Rongronggg9/rsstt-img-relay) 自建服务。
 
-Due to the CORS of Bilibili's image, you need to configure an image proxy, but we haven't found any stable image proxy in China Mainland, the default image proxy is provided by `https://images.weserv.nl/?url=`, which has DNS poisoning in some areas and the response is too slow. We suggest to refer to [rsstt-img-relay](https://github.com/Rongronggg9/rsstt-img-relay) to build your image proxy.
+Due to the CORS strategy of Bilibili, you need to configure an image proxy to get the image correctly. Unfortunately, we haven’t found any stable image proxy in China Mainland yet. The default image proxy is provided by `https://images.weserv.nl/?url=`, which has DNS pollution in some areas and the response is too slow. We suggest referring to [rsstt-img-relay](https://github.com/Rongronggg9/rsstt-img-relay) to build your image proxy instead.
 
 ```yaml
 hexo_bilibili_card:
