@@ -1,6 +1,8 @@
-.bvideo a:link{
-    text-decoration:none!important;;
+.bvideo a:link {
+    text-decoration: none !important;
+    ;
 }
+
 .bvideo-box {
     width: 80%;
     height: 96px;
@@ -12,8 +14,8 @@
     border-radius: 6px;
     background-color: #fcfcfc;
     display: flex;
-    user-select:none;
-    cursor:pointer;
+    user-select: none;
+    cursor: pointer;
     overflow: hidden;
     /* background-color: hsla(240,5%,96%,.3); */
 }
@@ -61,6 +63,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .bvideo-info {
     margin-left: 1rem;
     padding-top: 10px;
@@ -71,16 +74,17 @@
 
 .bvideo-info .title {
     max-height: 40px;
-    min-height:19px;
+    min-height: 19px;
     color: #222;
     line-height: 1.4;
     font-size: 14px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap; 
+    white-space: nowrap;
     max-width: 25rem;
     margin: 0;
 }
+
 .bvideo-info .up-name {
     height: 19px;
     margin-top: 1px;
@@ -93,6 +97,7 @@
     text-overflow: ellipsis;
     max-width: 150px
 }
+
 .bvideo-info .card-status {
     line-height: 13px;
     font-size: 12px;
@@ -132,17 +137,18 @@
 
 .card-label {
     display: inline-block;
-    font-weight:550;
+    font-weight: 550;
     width: 25px;
     height: 13px;
-    border:1.5px solid #ffc3d4;
-    color:#ffc3d4;
+    border: 1.5px solid #ffc3d4;
+    color: #ffc3d4;
     background-size: 100% 100%;
     position: absolute;
     top: -1px;
     left: 0;
-    padding-left:1px;
+    padding-left: 1px;
 }
+
 .bvideo-cover .cover-default {
     position: absolute;
     left: 0;
@@ -154,23 +160,25 @@
     background-position: 50%;
     background-repeat: no-repeat;
 }
+
 @media (max-width: 768px) {
     .bvideo-cover {
         display: none;
     }
-    .partition{
-        display:none;
+
+    .partition {
+        display: none;
     }
 
     .bvideo-info .title {
         max-height: 40px;
-        min-height:19px;
+        min-height: 19px;
         color: #222;
         line-height: 1.4;
         font-size: 14px;
         text-overflow: clip;
         overflow: hidden;
-        white-space:normal;
+        white-space: normal;
         margin: 0;
     }
 }
