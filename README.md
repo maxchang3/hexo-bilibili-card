@@ -6,9 +6,11 @@ A hexo plugin insert a bilibili card into your page or article, some of css code
 
 [![NPM](https://nodei.co/npm/hexo-bilibili-card.png)](https://nodei.co/npm/hexo-bilibili-card/)
 
-> 此插件样式可能会受到站内样式污染，后期会改为 SVG 生成。段时间内获取大量图片可能会受到访问限制。
+> 目前此插件处于非积极维护中，可能需要修改代码样式以适配自己的网站。
 
-> This plugin's CSS styles may be contaminated by the site's CSS styles, which will be changed to SVG generation at a later date. Fetching a large number of images over a period of time may be subject to access restrictions.
+> 此插件样式可能会受到站内样式污染，后期会改为 SVG 生成或 Web Component。短时间内获取大量图片信息可能会受到哔哩哔哩的访问限制。
+
+> This plugin's CSS styles may be contaminated by the site's CSS styles, which will be changed to SVG generation at a later date. Fetching a large number of images/info over a period of time may be subject to access restrictions.
 
 
 ## Install 安装
